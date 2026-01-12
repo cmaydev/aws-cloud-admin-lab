@@ -1,0 +1,35 @@
+############################################
+# HCSL – Sensitive / Non-Public Documentation
+############################################
+
+# Private ops documentation (exact IPs, MACs, credentials)
+*_PRIVATE.md
+*_PRIVATE.txt
+
+# Alternate naming (if you prefer non-PUBLIC suffixes)
+*.internal.md
+*.local.md
+*.ops.md
+
+# Private network diagrams
+*private*.drawio
+*internal*.drawio
+*ops*.drawio
+
+# Obsidian vaults (local knowledge base)
+.obsidian/
+Obsidian/
+obsidian/
+
+# Temporary notes / scratchpads
+notes/
+scratch/
+todo.local.md
+
+############################################
+# OS / Editor noise
+############################################
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
